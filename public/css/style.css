@@ -3,10 +3,6 @@
 Primary style
 
 -------------------------------- */
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
