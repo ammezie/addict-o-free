@@ -1,0 +1,24 @@
+LINKS ON MENU
+Dashboard
+**Shows a calendar
+
+Addictions
+**Shows dropdown with user's addictions
+**Addiction for user
+***The addiction link will take the user to a page for his addiction.
+Page will contain a calendar to show user's progress. On clicking a date, the which is the present date, the user will be asked if he wants to mark progress for the day and which progress he wants to mark whether pass or fail. It will also indicate that any progress marked cannot be changed. This requests will be made using AJAX. The user will be able to switch view between calendar tab or long term report.
+Long term report will include tabular view and graphical view to be implemented using meteor.js.
+
+Profile
+***The profile page displays a page with user's profile. User's profile will include username, email, addictions indicating which ones have been overcome.
+***Last portion of profile page will include user settings. Settings for 
+****Recieve daily tips on your addiction
+****Recieve progress report and frequency selection
+
+
+Logout 
+***The logout link will make an ajax request to the user controller. Logout will be implemented using laravel logout function from its default authentication driver.
+
+CONTROLLERS
+For user authentication, a user controller will be used. Users data will be accessed using the user model. Login method will be implemented using loginUser() and logout method with logoutUser(). Other methods can be designed based on developers discretion.
+

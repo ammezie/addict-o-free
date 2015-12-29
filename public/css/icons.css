@@ -196,3 +196,6 @@
 .icon-world:before {
 	content: "\e02f";
 }
+.icon-home:before {
+	content: "\e900";
+}
